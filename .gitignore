@@ -1,0 +1,11 @@
+# Project
+dist/
+node_modules/
+package-lock.json
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Visual Studio Code
+.vscode/

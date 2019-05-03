@@ -1,0 +1,34 @@
+@import "../colors";
+@import "../fonts";
+
+.icon-footer-container,
+.icon-footer-container:focus,
+.icon-footer-container:hover  {
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+  margin-right: 50px;
+  text-decoration: none;
+  width: 150px;
+
+  .icon-img {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    margin-left: 15px;
+    width: 100px;
+  }
+
+  .icon-title {
+    color: $background;
+    font-family: Gravity-Bold, serif;
+    font-size: 15px;
+  }
+
+}
+

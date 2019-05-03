@@ -1,0 +1,42 @@
+@import "../colors";
+@import "../fonts";
+
+.icon-header-container {
+
+  align-items: center;
+  background-color: $secondColor;
+  display: flex;
+  flex-direction: column;
+  height: 114px;
+  justify-content: center;
+  width: 114px;
+
+  .icon-header-button {
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    border: 0;
+    height: 50px;
+    outline: none;
+    width: 50px;
+  }
+
+  .icon-header-title,
+  .icon-header-title:hover,
+  .icon-header-title:focus {
+    background: transparent;
+    border: 0;
+    color: $background;
+    font-family: Gravity-Bold, serif;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    padding-top: 15px;
+  }
+
+}
+
+.icon-header-container:hover  {
+  background-color: $firstColor;
+}
+
